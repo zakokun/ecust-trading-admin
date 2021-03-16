@@ -4,35 +4,35 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>量化交易系统</title>
 
-<link href="themes/default/style.css" rel="stylesheet" type="text/css" media="screen"/>
-<link href="themes/css/core.css" rel="stylesheet" type="text/css" media="screen"/>
-<link href="themes/css/print.css" rel="stylesheet" type="text/css" media="print"/>
-<link href="uploadify/css/uploadify.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="./dwz/themes/default/style.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="./dwz/themes/css/core.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="./dwz/themes/css/print.css" rel="stylesheet" type="text/css" media="print"/>
+<!--<link href="uploadify/css/uploadify.css" rel="stylesheet" type="text/css" media="screen"/>-->
 <!--[if IE]>
-<link href="themes/css/ieHack.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="./dwz/themes/css/ieHack.css" rel="stylesheet" type="text/css" media="screen"/>
 <![endif]-->
 
-<!--[if lt IE 9]><script src="js/speedup.js" type="text/javascript"></script><script src="js/jquery-1.12.4.js" type="text/javascript"></script><![endif]-->
-<!--[if gte IE 9]><!--><script src="js/jquery-3.4.1.js" type="text/javascript"></script><!--<![endif]-->
+<!--[if lt IE 9]><script src="./dwz/js/speedup.js" type="text/javascript"></script><script src="./dwz/js/jquery-1.12.4.js" type="text/javascript"></script><![endif]-->
+<!--[if gte IE 9]><!--><script src="./dwz/js/jquery-3.4.1.js" type="text/javascript"></script><!--<![endif]-->
 
-<script src="js/jquery.cookie.js" type="text/javascript"></script>
-<script src="js/jquery.validate.js" type="text/javascript"></script>
-<!--<script src="js/jquery.bgiframe.js" type="text/javascript"></script>-->
-<script src="xheditor/xheditor-1.2.2.min.js" type="text/javascript"></script>
-<script src="xheditor/xheditor_lang/zh-cn.js" type="text/javascript"></script>
-<script src="uploadify/scripts/jquery.uploadify.js" type="text/javascript"></script>
+<!--<script src="./dwz/js/jquery.cookie.js" type="text/javascript"></script>-->
+<!--<script src="./dwz/js/jquery.validate.js" type="text/javascript"></script>-->
+<!--<script src="./dwz/js/jquery.bgiframe.js" type="text/javascript"></script>-->
+<!--<script src="xheditor/xheditor-1.2.2.min.js" type="text/javascript"></script>-->
+<!--<script src="xheditor/xheditor_lang/zh-cn.js" type="text/javascript"></script>-->
+<!--<script src="uploadify/scripts/jquery.uploadify.js" type="text/javascript"></script>-->
 
-<script type="text/javascript" src="chart/echarts.min.js"></script>
-<script src="bin/dwz.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="dwz/chart/echarts.min.js"></script>
+<script src="dwz/bin/dwz.min.js" type="text/javascript"></script>
 
 <!-- 可以用dwz.min.js替换前面全部dwz.*.js (注意：替换时下面dwz.regional.zh.js还需要引入)
 <script src="bin/dwz.min.js" type="text/javascript"></script>
 -->
-<script src="js/dwz.regional.zh.js" type="text/javascript"></script>
+<script src="./dwz/js/dwz.regional.zh.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 $(function(){
-	DWZ.init("dwz.frag.xml", {
+	DWZ.init("dwz/bin/dwz.frag.xml", {
 		loginUrl:"login_dialog.html", loginTitle:"登录",	// 弹出登录对话框
 //		loginUrl:"login.html",	// 跳到登录页面
 		statusCode:{ok:200, error:300, timeout:301}, //【可选】
@@ -276,7 +276,6 @@ $(function(){
 - 在线文档：http://dwzteam.gitee.io/dwz_mobile_doc_v1
 - 安卓 Apk 安装测试版：http://mobile.jui.org/apk/dwz_mobile_app.apk
 </pre>
-<img src="./doc/dwz_mobile_app.jpg" width="100%">
 
 <div class="divider"></div>
 <h2>常见问题及解决:</h2>
@@ -289,9 +288,9 @@ Error loading XML document: dwz.frag.xml
 如何精简JS：
 	1) dwz.min.js替换全部dwz.*.js (注意：替换时下面dwz.regional.zh.js还需要引入
 	2) demo index页面head中引入的几个第三方JS库也可以根据项目情况删除：
-		js/jquery.cookie.js			用于cookie中纪录jUI主题theme，下次打开浏览器时纪录用户选择的主题风格
-		js/jquery.validate.js		用于form表单验证
-		js/jquery.bgiframe.js		用于解决IE6 dialog盖不住navTab页面中的select问题
+		./dwz/js/jquery.cookie.js			用于cookie中纪录jUI主题theme，下次打开浏览器时纪录用户选择的主题风格
+		./dwz/js/jquery.validate.js		用于form表单验证
+		./dwz/js/jquery.bgiframe.js		用于解决IE6 dialog盖不住navTab页面中的select问题
 		xheditor/xheditor-1.2.2.min.js	在线编辑器
 		xheditor/xheditor_lang/zh-cn.js	在线编辑器国际化
 		uploadify/scripts/jquery.uploadify.min.js	多文件上传
