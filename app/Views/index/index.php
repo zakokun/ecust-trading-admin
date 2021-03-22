@@ -96,105 +96,13 @@
             <div class="accordion" fillSpace="sidebar">
                 <div class="accordionContent">
                     <ul class="tree treeFolder">
-                        <li><a href="#">主框架面板</a>
+                        <li><a href="#">资产管理</a>
                             <ul>
-                                <li><a href="main.html" target="navTab" rel="main">我的主页</a></li>
+                                <li><a href="/stock/list" target="navTab" rel="main">货币列表</a></li>
                                 <li><a href="/finance/list" target="navTab" rel="main">我的行情</a></li>
                                 <li><a href="/trade/list" target="navTab" rel="main">交易列表</a></li>
-
                             </ul>
                         </li>
-
-                        <li><a>常用组件</a>
-                            <ul>
-                                <li><a href="w_panel.html" target="navTab" rel="w_panel">面板</a></li>
-                                <li><a href="w_tabs.html" target="navTab" rel="w_tabs">选项卡面板</a></li>
-                                <li><a href="w_dialog.html" target="navTab" rel="w_dialog">弹出窗口</a></li>
-                                <li><a href="w_alert.html" target="navTab" rel="w_alert">提示窗口</a></li>
-                                <li><a href="w_list.html" target="navTab" rel="w_list">CSS表格容器</a></li>
-                                <li><a href="demo_page1.html" target="navTab" rel="w_table">表格容器</a></li>
-                                <li><a href="w_removeSelected.html" target="navTab" rel="w_table">表格数据库排序+批量删除</a></li>
-                                <li><a href="w_tree.html" target="navTab" rel="w_tree">树形菜单</a></li>
-                                <li><a href="w_accordion.html" target="navTab" rel="w_accordion">滑动菜单</a></li>
-                                <li><a href="w_editor.html" target="navTab" rel="w_editor">编辑器</a></li>
-                                <li><a href="w_datepicker.html" target="navTab" rel="w_datepicker">日期控件</a></li>
-                                <li><a href="demo/database/db_widget.html" target="navTab"
-                                       rel="db">suggest+lookup+主从结构</a></li>
-                                <li><a href="demo/database/treeBringBack.html" target="navTab" rel="db">tree查找带回</a>
-                                </li>
-                                <li><a href="demo/sortDrag/1.html" target="navTab" rel="sortDrag">单个sortDrag示例</a></li>
-                                <li><a href="demo/sortDrag/2.html" target="navTab" rel="sortDrag">多个sortDrag示例</a></li>
-                                <li><a href="demo/sortDrag/form.html" target="navTab" rel="sortDrag">可拖动表单示例</a></li>
-                            </ul>
-                        </li>
-
-                        <li><a>表单组件</a>
-                            <ul>
-                                <li><a href="w_validation.html" target="navTab" rel="w_validation">表单验证</a></li>
-                                <li><a href="w_button.html" target="navTab" rel="w_button">按钮</a></li>
-                                <li><a href="w_textInput.html" target="navTab" rel="w_textInput">文本框/文本域</a></li>
-                                <li><a href="w_combox.html" target="navTab" rel="w_combox">下拉菜单</a></li>
-                                <li><a href="w_checkbox.html" target="navTab" rel="w_checkbox">多选框/单选框</a></li>
-                                <li><a href="demo_upload.html" target="navTab" rel="demo_upload">iframeCallback表单提交</a>
-                                </li>
-                                <li><a href="w_uploadify.html" target="navTab" rel="w_uploadify">uploadify多文件上传</a></li>
-                                <li><a href="w_html5_upload.html" target="navTab" rel="html5_upload">html5文件上传</a></li>
-                            </ul>
-                        </li>
-                        <li><a>组合应用</a>
-                            <ul>
-                                <li><a href="demo/pagination/layout1.html" target="navTab" rel="pagination1">局部刷新分页1</a>
-                                </li>
-                                <li><a href="demo/pagination/layout2.html" target="navTab" rel="pagination2">局部刷新分页2</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><a>echarts图表</a>
-                            <ul>
-                                <li><a href="chart/test/barchart.html" target="navTab" rel="chart">柱状图(垂直)</a></li>
-                                <li><a href="chart/test/hbarchart.html" target="navTab" rel="chart">柱状图(水平)</a></li>
-                                <li><a href="chart/test/linechart.html" target="navTab" rel="chart">折线图</a></li>
-                                <li><a href="chart/test/linechart2.html" target="navTab" rel="chart">曲线图</a></li>
-                                <li><a href="chart/test/piechart.html" target="navTab" rel="chart">饼图</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="dwz.frag.xml" target="navTab" external="true">dwz.frag.xml</a></li>
-                    </ul>
-                </div>
-                <div class="accordionHeader">
-                    <h2><span>Folder</span>典型页面</h2>
-                </div>
-                <div class="accordionContent">
-                    <ul class="tree treeFolder treeCheck">
-                        <li><a href="demo_page1.html" target="navTab" rel="demo_page1">查询我的客户</a></li>
-                        <li><a href="demo_page1.html" target="navTab" rel="demo_page2">表单查询页面</a></li>
-                        <li><a href="demo_page4.html" target="navTab" rel="demo_page4">表单录入页面</a></li>
-                        <li><a href="demo_page5.html" target="navTab" rel="demo_page5">有文本输入的表单</a></li>
-                        <li><a href="javascript:;">有提示的表单输入页面</a>
-                            <ul>
-                                <li><a href="javascript:;">页面一</a></li>
-                                <li><a href="javascript:;">页面二</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="javascript:;">选项卡和图形的页面</a>
-                            <ul>
-                                <li><a href="javascript:;">页面一</a></li>
-                                <li><a href="javascript:;">页面二</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="javascript:;">选项卡和图形切换的页面</a></li>
-                        <li><a href="javascript:;">左右两个互动的页面</a></li>
-                        <li><a href="javascript:;">列表输入的页面</a></li>
-                        <li><a href="javascript:;">双层栏目列表的页面</a></li>
-                    </ul>
-                </div>
-                <div class="accordionHeader">
-                    <h2><span>Folder</span>流程演示</h2>
-                </div>
-                <div class="accordionContent">
-                    <ul class="tree">
-                        <li><a href="newPage1.html" target="dialog" rel="dlg_page">列表</a></li>
-                        <li><a href="newPage1.html" target="dialog" rel="dlg_page2">列表</a></li>
                     </ul>
                 </div>
             </div>
@@ -218,88 +126,7 @@
             </ul>
             <div class="navTab-panel tabsPageContent layoutBox">
                 <div class="page unitBox">
-                    <div class="accountInfo">
-                        <div class="alertInfo">
-                            <p><a href="https://gitee.com/dwzteam/dwz_jui/blob/master/doc/dwz-user-guide.pdf"
-                                  target="_blank" style="line-height:19px"><span>DWZ框架使用手册</span></a></p>
-                            <p><a href="http://pan.baidu.com/s/18Bb8Z" target="_blank" style="line-height:19px">DWZ框架开发视频教材</a>
-                            </p>
-                        </div>
-                        <div class="right">
-                            <p style="color:red">DWZ官方微博 <a href="http://weibo.com/dwzui" target="_blank">http://weibo.com/dwzui</a>
-                            </p>
-                        </div>
-                        <p><span>DWZ富客户端框架</span></p>
-                        <p>DWZ官方微博:<a href="http://weibo.com/dwzui" target="_blank">http://weibo.com/dwzui</a></p>
-                    </div>
-                    <div class="pageFormContent" layoutH="80" style="margin-right:230px">
-
-
-                        <h2>DWZ系列开源项目:</h2>
-                        <div class="unit"><a href="https://git.oschina.net/dwzteam/dwz_jui" target="_blank">dwz富客户端框架 -
-                                jUI</a></div>
-                        <div class="unit"><a href="https://git.oschina.net/dwzteam/dwz_group" target="_blank">DWZ框架 +
-                                ThinkPHP 实现小组工作日志系统</a></div>
-                        <div class="unit"><a href="https://code.csdn.net/dwzteam/dwz_ssh2" target="_blank">dwz4j企业级Java
-                                Web快速开发框架(Hibernate+Spring+Struts2) + jUI整合应用</a></div>
-                        <div class="unit"><a href="https://code.csdn.net/dwzteam/dwz_springmvc" target="_blank">dwz4j企业级Java
-                                Web快速开发框架(Mybatis + SpringMVC) + jUI整合应用</a></div>
-                        <div class="unit"><a href="https://code.csdn.net/dwzteam/dwz_thinkphp" target="_blank">ThinkPHP
-                                + jUI整合应用</a></div>
-                        <div class="unit"><a href="https://code.csdn.net/dwzteam/dwz_zendframework" target="_blank">Zend
-                                Framework + jUI整合应用</a></div>
-                        <div class="unit"><a href="http://www.yiiframework.com/extension/dwzinterface/" target="_blank">YII
-                                + jUI整合应用</a></div>
-                        <div class="unit"><a href="https://gitee.com/dwzteam/dwz_mobile_app" target="_blank">DWZ Mobile
-                                HTML5混合APP框架</a></div>
-
-                        <a class="buttonActive" href="https://git.oschina.net/dwzteam/" target="_blank"><span>DWZ开源系列源码（oschina）</span></a>
-                        <a class="button" href="https://github.com/dwzteam/"
-                           target="_blank"><span>DWZ开源系列源码（github）</span></a>
-                        <a class="button" href="donation.html" target="dialog" height="400"><span style="color: red">捐赠 & DWZ学习视频</span></a>
-
-                        <div class="divider"></div>
-                        <h2>有偿服务(<span style="">公司培训，技术支持，解决使用jUI过程中出现的全部疑难问题</span>):</h2><br/>
-                        <pre style="margin:5px;line-height:1.4em;">
-合作电话：18600055221(杜权)
-技术支持：17767167745(张慧华)
-邮箱：support@jui.org
-</pre>
-                        <!--<a class="button" href="http://code.csdn.net/groups/2155" target="_blank"><span>DWZ讨论组</span></a>-->
-
-                        <div class="divider"></div>
-                        <h2>DWZ 移动端框架(<span style="color: red">DWZ Mobile HTML5混合APP框架)</span></h2>
-                        <pre style="margin:5px;line-height:1.4em">
-- 在线演示版，使用chrome 开发模式设置手机版：http://mobile.jui.org
-- git源码：https://gitee.com/dwzteam/dwz_mobile_app
-- 在线文档：http://dwzteam.gitee.io/dwz_mobile_doc_v1
-- 安卓 Apk 安装测试版：http://mobile.jui.org/apk/dwz_mobile_app.apk
-</pre>
-
-                        <div class="divider"></div>
-                        <h2>常见问题及解决:</h2>
-                        <pre style="margin:5px;line-height:1.4em">
-Error loading XML document: dwz.frag.xml
-直接用IE打开index.html弹出一个对话框：Error loading XML document: dwz.frag.xml
-原因：没有加载成功dwz.frag.xml。IE ajax laod本地文件有限制, 是ie安全级别的问题, 不是框架的问题。
-解决方法：部署到apache 等 Web容器下。
-
-如何精简JS：
-	1) dwz.min.js替换全部dwz.*.js (注意：替换时下面dwz.regional.zh.js还需要引入
-	2) demo index页面head中引入的几个第三方JS库也可以根据项目情况删除：
-		./dwz/js/jquery.cookie.js			用于cookie中纪录jUI主题theme，下次打开浏览器时纪录用户选择的主题风格
-		./dwz/js/jquery.validate.js		用于form表单验证
-		./dwz/js/jquery.bgiframe.js		用于解决IE6 dialog盖不住navTab页面中的select问题
-		xheditor/xheditor-1.2.2.min.js	在线编辑器
-		xheditor/xheditor_lang/zh-cn.js	在线编辑器国际化
-		uploadify/scripts/jquery.uploadify.min.js	多文件上传
-</pre>
-
-                    </div>
-
                     <div style="width:230px;position: absolute;top:60px;right:0" layoutH="80">
-                        <iframe width="100%" height="430" class="share_self" frameborder="0" scrolling="no"
-                                src="//widget.weibo.com/weiboshow/index.php?width=0&height=430&fansRow=2&ptype=1&skin=1&isTitle=0&noborder=1&isWeibo=1&isFans=0&uid=1739071261&verifier=c683dfe7"></iframe>
                     </div>
                 </div>
 
